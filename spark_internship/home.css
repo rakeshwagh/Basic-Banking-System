@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*styling user and transaction table */
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+}
+table {
+  margin: 20px auto;
+}
+tr:nth-child(even) {
+  background-color: rgb(197, 194, 194);
+}
+th {
+  background-color: rgb(173, 84, 84);
+  color: antiquewhite;
+}
